@@ -1,0 +1,13 @@
+/// week02-2.cpp 「要使用命名空間」
+#include <iostream> /// 上週教的
+#include <string> /// 今天新教的
+using namespace std;///使用std命名空間
+
+int main()
+{
+
+        std::string name; /// 使用標準的字串「字串」
+        std::cout << "請輸入你的名字:";
+        std::cin >> name;
+        std::cout << name << "你好，你會用字串了";
+}
